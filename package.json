@@ -1,26 +1,26 @@
 {
-  "name": "Madrid Web Generator",
-  "version": "0.1.0",
+  "name": "webmaker",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
- "dependencies": {
-  "react": "latest",
-  "react-dom": "^19.0.0",
-  "next": "latest",
-  "@radix-ui/react-slot": "latest",
-  "@radix-ui/react-dialog": "latest",
-  "class-variance-authority": "latest",
-  "clsx": "^2.1.0",
-  "tailwind-merge": "^2.3.0",
-  "tailwindcss": "^4.0.0",
-  "@tailwindcss/postcss": "^4.0.0",
-  "autoprefixer": "^10.4.0",
-  "lucide-react": "latest",
-}
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "react": "latest",
+    "react-dom": "^19.0.0",
+    "next": "latest",
+    "@radix-ui/react-slot": "latest",
+    "@radix-ui/react-dialog": "latest",
+    "class-variance-authority": "latest",
+    "clsx": "^2.1.0",
+    "tailwind-merge": "^2.3.0",
+    "tailwindcss": "^4.0.0",
+    "@tailwindcss/postcss": "^4.0.0",
+    "autoprefixer": "^10.4.0",
+    "lucide-react": "latest"
+  },
   "devDependencies": {
     "typescript": "^5.0.0",
     "@types/node": "^20.0.0",
